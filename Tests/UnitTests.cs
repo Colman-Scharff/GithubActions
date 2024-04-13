@@ -106,7 +106,7 @@ namespace GithubActionsLab
         [Test]
         public void Power_Valid_Scharff()
         {
-            Assert.AreEqual(3, Program.Add("1", "2"));
+            Assert.AreEqual(1, Program.Add("1", "2"));
             Assert.AreEqual(9, Program.Add("3", "2"));
             Assert.AreEqual(32, Program.Add("2", "5"));
         }
